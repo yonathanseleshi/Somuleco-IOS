@@ -15,6 +15,9 @@
 		2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */; };
 		2B4DA8B420E5770B0072F8B0 /* SomulecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8B320E5770B0072F8B0 /* SomulecoTests.swift */; };
 		2B4DA8BF20E5770B0072F8B0 /* SomulecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */; };
+		41184398E0A4901E142A59F6 /* Pods_SomulecoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E034AC41717589D1F3FA9248 /* Pods_SomulecoUITests.framework */; };
+		7BC88E0B097284107A9202B8 /* Pods_SomulecoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B525F064CA0E67303BE4431 /* Pods_SomulecoTests.framework */; };
+		9651DCBCD37CBD97324A6CAC /* Pods_Somuleco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD678B0867FBCF3D937C15D /* Pods_Somuleco.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		2B4DA8BA20E5770B0072F8B0 /* SomulecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomulecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomulecoUITests.swift; sourceTree = "<group>"; };
 		2B4DA8C020E5770B0072F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD678B0867FBCF3D937C15D /* Pods_Somuleco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somuleco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416EB7617403DAE88D4A1129 /* Pods-Somuleco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somuleco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco.debug.xcconfig"; sourceTree = "<group>"; };
+		7B525F064CA0E67303BE4431 /* Pods_SomulecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SomulecoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823D1F7E58E5698E9C102277 /* Pods-SomulecoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomulecoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SomulecoTests/Pods-SomulecoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D29F2E9F09E0ABA57429242 /* Pods-SomulecoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomulecoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SomulecoUITests/Pods-SomulecoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93251D9D9427F7E606099C1B /* Pods-SomulecoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomulecoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SomulecoTests/Pods-SomulecoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE9C8FFCE426349109DA6AA /* Pods-Somuleco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somuleco.release.xcconfig"; path = "Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco.release.xcconfig"; sourceTree = "<group>"; };
+		E034AC41717589D1F3FA9248 /* Pods_SomulecoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SomulecoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E013741C7F3F88E68098C4 /* Pods-SomulecoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomulecoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SomulecoUITests/Pods-SomulecoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9651DCBCD37CBD97324A6CAC /* Pods_Somuleco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC88E0B097284107A9202B8 /* Pods_SomulecoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41184398E0A4901E142A59F6 /* Pods_SomulecoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2B4DA8B220E5770B0072F8B0 /* SomulecoTests */,
 				2B4DA8BD20E5770B0072F8B0 /* SomulecoUITests */,
 				2B4DA89920E5770A0072F8B0 /* Products */,
+				CE7435966EF1ADBCEFBD514D /* Pods */,
+				5EB11B24DC3055B27E6465B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = SomulecoUITests;
 			sourceTree = "<group>";
 		};
+		5EB11B24DC3055B27E6465B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD678B0867FBCF3D937C15D /* Pods_Somuleco.framework */,
+				7B525F064CA0E67303BE4431 /* Pods_SomulecoTests.framework */,
+				E034AC41717589D1F3FA9248 /* Pods_SomulecoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7435966EF1ADBCEFBD514D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				416EB7617403DAE88D4A1129 /* Pods-Somuleco.debug.xcconfig */,
+				DCE9C8FFCE426349109DA6AA /* Pods-Somuleco.release.xcconfig */,
+				823D1F7E58E5698E9C102277 /* Pods-SomulecoTests.debug.xcconfig */,
+				93251D9D9427F7E606099C1B /* Pods-SomulecoTests.release.xcconfig */,
+				8D29F2E9F09E0ABA57429242 /* Pods-SomulecoUITests.debug.xcconfig */,
+				F9E013741C7F3F88E68098C4 /* Pods-SomulecoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DA8C320E5770B0072F8B0 /* Build configuration list for PBXNativeTarget "Somuleco" */;
 			buildPhases = (
+				F1C0E643E17081C8C40C8568 /* [CP] Check Pods Manifest.lock */,
 				2B4DA89420E577090072F8B0 /* Sources */,
 				2B4DA89520E577090072F8B0 /* Frameworks */,
 				2B4DA89620E577090072F8B0 /* Resources */,
+				227FFCA2852BA1BBBAA54908 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DA8C620E5770B0072F8B0 /* Build configuration list for PBXNativeTarget "SomulecoTests" */;
 			buildPhases = (
+				9B2D3C97F4648117CA006008 /* [CP] Check Pods Manifest.lock */,
 				2B4DA8AB20E5770B0072F8B0 /* Sources */,
 				2B4DA8AC20E5770B0072F8B0 /* Frameworks */,
 				2B4DA8AD20E5770B0072F8B0 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DA8C920E5770B0072F8B0 /* Build configuration list for PBXNativeTarget "SomulecoUITests" */;
 			buildPhases = (
+				A849091727ADEC6D0EE94BD4 /* [CP] Check Pods Manifest.lock */,
 				2B4DA8B620E5770B0072F8B0 /* Sources */,
 				2B4DA8B720E5770B0072F8B0 /* Frameworks */,
 				2B4DA8B820E5770B0072F8B0 /* Resources */,
@@ -253,6 +297,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		227FFCA2852BA1BBBAA54908 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2D3C97F4648117CA006008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SomulecoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A849091727ADEC6D0EE94BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SomulecoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C0E643E17081C8C40C8568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somuleco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B4DA89420E577090072F8B0 /* Sources */ = {
@@ -432,6 +599,7 @@
 		};
 		2B4DA8C420E5770B0072F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416EB7617403DAE88D4A1129 /* Pods-Somuleco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +618,7 @@
 		};
 		2B4DA8C520E5770B0072F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE9C8FFCE426349109DA6AA /* Pods-Somuleco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +637,7 @@
 		};
 		2B4DA8C720E5770B0072F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823D1F7E58E5698E9C102277 /* Pods-SomulecoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +658,7 @@
 		};
 		2B4DA8C820E5770B0072F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93251D9D9427F7E606099C1B /* Pods-SomulecoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		2B4DA8CA20E5770B0072F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D29F2E9F09E0ABA57429242 /* Pods-SomulecoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +699,7 @@
 		};
 		2B4DA8CB20E5770B0072F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E013741C7F3F88E68098C4 /* Pods-SomulecoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

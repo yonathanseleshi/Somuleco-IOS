@@ -1,0 +1,6 @@
+framework module Pods_SomulecoUITests {
+  umbrella header "Pods-SomulecoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,130 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AWSAutoScaling (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSCloudWatch (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSCognito (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSCognitoIdentityProvider (2.6.22):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.22)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.22)
+  - AWSDynamoDB (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSEC2 (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSElasticLoadBalancing (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSKinesis (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSLambda (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSMachineLearning (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSMobileAnalytics (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSS3 (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSSES (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSSimpleDB (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSSNS (2.6.22):
+    - AWSCore (= 2.6.22)
+  - AWSSQS (2.6.22):
+    - AWSCore (= 2.6.22)
+  - Hero (1.2.0)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - SidebarOverlay (4.2.2)
+  - SideMenu (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AWSAutoScaling
+  - AWSCloudWatch
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSElasticLoadBalancing
+  - AWSKinesis
+  - AWSLambda
+  - AWSMachineLearning
+  - AWSMobileAnalytics
+  - AWSS3
+  - AWSSES
+  - AWSSimpleDB
+  - AWSSNS
+  - AWSSQS
+  - Hero (~> 1.2)
+  - Moya (~> 11.0)
+  - SidebarOverlay (~> 4.2)
+  - SideMenu
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AWSAutoScaling
+    - AWSCloudWatch
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSEC2
+    - AWSElasticLoadBalancing
+    - AWSKinesis
+    - AWSLambda
+    - AWSMachineLearning
+    - AWSMobileAnalytics
+    - AWSS3
+    - AWSSES
+    - AWSSimpleDB
+    - AWSSNS
+    - AWSSQS
+    - Hero
+    - Moya
+    - Result
+    - SidebarOverlay
+    - SideMenu
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AWSAutoScaling: 980b633cc75afefc76feb2d40924e7a6fa7f2e4f
+  AWSCloudWatch: 408625b63a520975eaa9b31c976a61574f7a3671
+  AWSCognito: e8d697e797166cb1b813d12c08765ff26daf19ac
+  AWSCognitoIdentityProvider: f7d15744ca3d70270de05a212e501f29a4a06307
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: faae134779f0f6e46a8d426c0ccc02e34466b785
+  AWSDynamoDB: b2f5b6a98d40f875e89a974d56b62c418e872972
+  AWSEC2: 17e10f74507a0f62da20f4c9b1d361db33bd8624
+  AWSElasticLoadBalancing: 1543e43c378273d5e9020c19a17ce3bb97d1c91b
+  AWSKinesis: cf19661168e8ec68fb2efa960bd56909d373abfd
+  AWSLambda: d6d656a1188819892e5b1d8128890137f16f8429
+  AWSMachineLearning: da0f51cd9e41d787f43efb1950cda87483cc1add
+  AWSMobileAnalytics: cb5cee3e481abb0aabf0d26d2067e658195142c8
+  AWSS3: 2b70463225a455ba26494f06346bddb74dedf73d
+  AWSSES: 65fcd9be7724f4a19348441be2f03e647466db62
+  AWSSimpleDB: 1894a218847a038c56b9a16d161198e6dae291bd
+  AWSSNS: c78beb9fa64abd0bb745974b47b63202030daa66
+  AWSSQS: 0fc2d301d95ba319b34a564b2b1bc1f7c58a4bcb
+  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SidebarOverlay: a5365455a2f9d54f70d0765764ca1a2806b1b11d
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: b6eda754b6e89064a4f76b383cf470c340b36454
+
+COCOAPODS: 1.5.3
