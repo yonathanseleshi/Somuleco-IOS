@@ -39,6 +39,7 @@ target 'Somuleco' do
      pod 'SideMenu'
      pod 'SidebarOverlay', '~> 4.2'
      pod 'Hero', '~> 1.2'
+     pod 'Material', '~> 2.16'
 
 
 end

@@ -36,6 +36,13 @@ PODS:
   - AWSSQS (2.6.22):
     - AWSCore (= 2.6.22)
   - Hero (1.2.0)
+  - Material (2.16.0):
+    - Material/Core (= 2.16.0)
+  - Material/Core (2.16.0):
+    - Motion (~> 1.4.2)
+  - Motion (1.4.2):
+    - Motion/Core (= 1.4.2)
+  - Motion/Core (1.4.2)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
   - Moya/Core (11.0.2):
@@ -65,6 +72,7 @@ DEPENDENCIES:
   - AWSSNS
   - AWSSQS
   - Hero (~> 1.2)
+  - Material (~> 2.16)
   - Moya (~> 11.0)
   - SidebarOverlay (~> 4.2)
   - SideMenu
@@ -92,6 +100,8 @@ SPEC REPOS:
     - AWSSNS
     - AWSSQS
     - Hero
+    - Material
+    - Motion
     - Moya
     - Result
     - SidebarOverlay
@@ -119,12 +129,14 @@ SPEC CHECKSUMS:
   AWSSNS: c78beb9fa64abd0bb745974b47b63202030daa66
   AWSSQS: 0fc2d301d95ba319b34a564b2b1bc1f7c58a4bcb
   Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+  Material: 6a85db48e092012f98704eb085852124f64b07af
+  Motion: 93605fd4dffe44203b56949eb0bc73a9521af7b6
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   SidebarOverlay: a5365455a2f9d54f70d0765764ca1a2806b1b11d
   SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: b6eda754b6e89064a4f76b383cf470c340b36454
+PODFILE CHECKSUM: 79f3cd0794a254b7730f1338648fedf6c0f415c2
 
 COCOAPODS: 1.5.3
