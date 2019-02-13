@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lr0-VY-As7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="OJI-6K-sdu">
+            <objects>
+                <viewController id="FFB-Ca-5dJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="goo-Va-ijk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MHv-VU-0Dx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9rU-NZ-OCw">
+                        <barButtonItem key="rightBarButtonItem" title="Login or Sign Up" id="Dpd-iU-UXc">
+                            <connections>
+                                <segue destination="tFb-o7-Hdu" kind="show" id="but-du-hUb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWZ-P1-jdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="18"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pzX-8s-XeO">
+            <objects>
+                <viewController id="NZW-1P-j0u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jld-Dq-yVz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UVL-AK-jsY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nVx-aM-ZmJ">
+                        <barButtonItem key="rightBarButtonItem" title="Login or Sign Up" id="rCu-qB-lkl">
+                            <connections>
+                                <segue destination="tFb-o7-Hdu" kind="show" id="aCg-Eq-1mZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6e-DG-aIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="-1863"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f1v-K6-q7Q">
+            <objects>
+                <viewController id="oMG-cn-Cta" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JuD-Lm-RID">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pO7-81-Vn4">
+                                <rect key="frame" x="0.0" y="64" width="375" height="887"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYl-RX-JYG" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="887"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nYl-RX-JYG" secondAttribute="bottom" id="4K5-o7-xKh"/>
+                                    <constraint firstItem="nYl-RX-JYG" firstAttribute="width" secondItem="pO7-81-Vn4" secondAttribute="width" id="NCR-QW-4Tl"/>
+                                    <constraint firstItem="nYl-RX-JYG" firstAttribute="height" secondItem="pO7-81-Vn4" secondAttribute="height" priority="250" id="R8F-kx-9yV"/>
+                                    <constraint firstAttribute="trailing" secondItem="nYl-RX-JYG" secondAttribute="trailing" id="VhB-gW-haA"/>
+                                    <constraint firstItem="nYl-RX-JYG" firstAttribute="leading" secondItem="pO7-81-Vn4" secondAttribute="leading" id="enR-1L-e8o"/>
+                                    <constraint firstItem="nYl-RX-JYG" firstAttribute="top" secondItem="pO7-81-Vn4" secondAttribute="top" id="gXO-UA-fr4"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nYl-RX-JYG" firstAttribute="top" secondItem="sGe-vN-HAj" secondAttribute="top" id="Aqi-Fi-Dql"/>
+                            <constraint firstItem="sGe-vN-HAj" firstAttribute="trailing" secondItem="nYl-RX-JYG" secondAttribute="trailing" id="UIS-5z-Be0"/>
+                            <constraint firstItem="pO7-81-Vn4" firstAttribute="leading" secondItem="sGe-vN-HAj" secondAttribute="leading" id="XsH-ee-rpL"/>
+                            <constraint firstItem="pO7-81-Vn4" firstAttribute="leading" secondItem="sGe-vN-HAj" secondAttribute="leading" id="YSL-Ct-G4E"/>
+                            <constraint firstItem="sGe-vN-HAj" firstAttribute="bottom" secondItem="nYl-RX-JYG" secondAttribute="bottom" id="ddA-Xc-pqC"/>
+                            <constraint firstItem="sGe-vN-HAj" firstAttribute="bottom" secondItem="pO7-81-Vn4" secondAttribute="bottom" id="f7J-Ve-NaK"/>
+                            <constraint firstItem="sGe-vN-HAj" firstAttribute="trailing" secondItem="pO7-81-Vn4" secondAttribute="trailing" id="vyv-Sj-X14"/>
+                            <constraint firstItem="pO7-81-Vn4" firstAttribute="top" secondItem="sGe-vN-HAj" secondAttribute="top" id="wxp-xs-6wj"/>
+                            <constraint firstItem="nYl-RX-JYG" firstAttribute="leading" secondItem="sGe-vN-HAj" secondAttribute="leading" id="zw6-XD-XWD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sGe-vN-HAj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D8V-1H-N6H">
+                        <barButtonItem key="rightBarButtonItem" title="Login or Sign Up" id="uQc-5P-wJA">
+                            <connections>
+                                <segue destination="tFb-o7-Hdu" kind="show" id="ixC-hz-7cb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVM-hs-SDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3123" y="-952"/>
+        </scene>
+        <!--AuthenticationStoryboard-->
+        <scene sceneID="Mny-os-PGA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AuthenticationStoryboard" id="tFb-o7-Hdu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AIb-tC-M7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5294" y="-1396"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SMy-A1-XtH">
+            <objects>
+                <tabBarController id="Lr0-VY-As7" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dux-R6-snQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Tbq-l6-9DR" kind="relationship" relationship="viewControllers" id="pUf-kb-qBe"/>
+                        <segue destination="7Fs-Hi-Wri" kind="relationship" relationship="viewControllers" id="gGT-jD-EOv"/>
+                        <segue destination="sHL-mA-QhH" kind="relationship" relationship="viewControllers" id="fZY-AJ-J7T"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DwK-cd-O8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210" y="-919"/>
+        </scene>
+        <!--About Somuleco-->
+        <scene sceneID="RLL-m9-rKe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tbq-l6-9DR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About Somuleco" image="HomeTab" id="DnK-ET-P7i"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a3m-KE-wC1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oMG-cn-Cta" kind="relationship" relationship="rootViewController" id="hnI-TX-L9A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QcR-Gg-Lxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="-1154.5727136431785"/>
+        </scene>
+        <!--Explore-->
+        <scene sceneID="dX4-cO-n01">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Fs-Hi-Wri" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Explore" image="Explore" id="ngf-8T-kcc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sjF-qh-pcW">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FFB-Ca-5dJ" kind="relationship" relationship="rootViewController" id="hVa-OI-zJm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9l-o0-xtv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="-182"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="ceL-dV-Q8D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sHL-mA-QhH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Library" image="LibraryTab" id="Igk-rx-Bx1"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gQJ-3p-Flr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NZW-1P-j0u" kind="relationship" relationship="rootViewController" id="rf3-dI-kq6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nPB-Yj-FQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673" y="-1863"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Explore" width="17" height="17"/>
+        <image name="HomeTab" width="17" height="17"/>
+        <image name="LibraryTab" width="17" height="17"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="but-du-hUb"/>
+    </inferredMetricsTieBreakers>
+</document>

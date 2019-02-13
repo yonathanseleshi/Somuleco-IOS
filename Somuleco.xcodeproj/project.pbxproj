@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2B4DA89C20E5770A0072F8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */; };
-		2B4DA89E20E5770A0072F8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA89D20E5770A0072F8B0 /* ViewController.swift */; };
+		2B4DA89E20E5770A0072F8B0 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */; };
 		2B4DA8A120E5770A0072F8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA89F20E5770A0072F8B0 /* Main.storyboard */; };
 		2B4DA8A420E5770A0072F8B0 /* Somuleco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8A220E5770A0072F8B0 /* Somuleco.xcdatamodeld */; };
 		2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */; };
 		2B4DA8B420E5770B0072F8B0 /* SomulecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8B320E5770B0072F8B0 /* SomulecoTests.swift */; };
 		2B4DA8BF20E5770B0072F8B0 /* SomulecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */; };
+		2B7DF8722214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */; };
+		2B7DF8742214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */; };
+		2B7DF8762214A24800ACE5F6 /* AuthenticationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8752214A24800ACE5F6 /* AuthenticationStoryboard.storyboard */; };
+		2B9CF00B20E9E920006AB73C /* LessonFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF00A20E9E920006AB73C /* LessonFeedViewController.swift */; };
+		2B9CF00D20E9E935006AB73C /* SocialFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF00C20E9E935006AB73C /* SocialFeedViewController.swift */; };
+		2B9CF00F20E9E948006AB73C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF00E20E9E948006AB73C /* ExploreViewController.swift */; };
+		2B9CF01120E9E95A006AB73C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */; };
+		2B9CF01320E9E969006AB73C /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */; };
+		2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */; };
 		2B9EB37520E6C80500035D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EB37420E6C80500035D0A /* Assets.xcassets */; };
+		2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60A20E8192100C204F8 /* LoginViewController.swift */; };
+		2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */; };
+		2BC4E60F20E824E300C204F8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60E20E824E300C204F8 /* constants.swift */; };
+		2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E61020E8715200C204F8 /* SignupViewController.swift */; };
+		2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */; };
 		41184398E0A4901E142A59F6 /* Pods_SomulecoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E034AC41717589D1F3FA9248 /* Pods_SomulecoUITests.framework */; };
 		7BC88E0B097284107A9202B8 /* Pods_SomulecoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B525F064CA0E67303BE4431 /* Pods_SomulecoTests.framework */; };
 		9651DCBCD37CBD97324A6CAC /* Pods_Somuleco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD678B0867FBCF3D937C15D /* Pods_Somuleco.framework */; };
@@ -40,7 +54,7 @@
 /* Begin PBXFileReference section */
 		2B4DA89820E5770A0072F8B0 /* Somuleco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somuleco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B4DA89D20E5770A0072F8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		2B4DA8A020E5770A0072F8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B4DA8A320E5770A0072F8B0 /* Somuleco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Somuleco.xcdatamodel; sourceTree = "<group>"; };
 		2B4DA8A820E5770B0072F8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,7 +65,21 @@
 		2B4DA8BA20E5770B0072F8B0 /* SomulecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomulecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomulecoUITests.swift; sourceTree = "<group>"; };
 		2B4DA8C020E5770B0072F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnauthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
+		2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
+		2B7DF8752214A24800ACE5F6 /* AuthenticationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationStoryboard.storyboard; sourceTree = "<group>"; };
+		2B9CF00A20E9E920006AB73C /* LessonFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFeedViewController.swift; sourceTree = "<group>"; };
+		2B9CF00C20E9E935006AB73C /* SocialFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedViewController.swift; sourceTree = "<group>"; };
+		2B9CF00E20E9E948006AB73C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavViewController.swift; sourceTree = "<group>"; };
 		2B9EB37420E6C80500035D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Icons/Assets.xcassets; sourceTree = "<group>"; };
+		2BC4E60A20E8192100C204F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradientExtension.swift; sourceTree = "<group>"; };
+		2BC4E60E20E824E300C204F8 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		2BC4E61020E8715200C204F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
 		3BD678B0867FBCF3D937C15D /* Pods_Somuleco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somuleco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		416EB7617403DAE88D4A1129 /* Pods-Somuleco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somuleco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco.debug.xcconfig"; sourceTree = "<group>"; };
 		7B525F064CA0E67303BE4431 /* Pods_SomulecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SomulecoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,13 +144,20 @@
 		2B4DA89A20E5770A0072F8B0 /* Somuleco */ = {
 			isa = PBXGroup;
 			children = (
+				2B7DF8702214A17100ACE5F6 /* Authentication */,
+				2B7DF86F2214A16900ACE5F6 /* Authenticated */,
+				2B7DF86E2214A15E00ACE5F6 /* Unauthenticated */,
+				2B7DF86D2214A12E00ACE5F6 /* Storyboards */,
 				2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */,
-				2B4DA89D20E5770A0072F8B0 /* ViewController.swift */,
+				2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */,
+				2B9CF00920E9E8D9006AB73C /* Controllers */,
 				2B4DA89F20E5770A0072F8B0 /* Main.storyboard */,
 				2B9EB37420E6C80500035D0A /* Assets.xcassets */,
 				2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */,
+				2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */,
 				2B4DA8AA20E5770B0072F8B0 /* Info.plist */,
 				2B4DA8A220E5770A0072F8B0 /* Somuleco.xcdatamodeld */,
+				2BC4E60E20E824E300C204F8 /* constants.swift */,
 			);
 			path = Somuleco;
 			sourceTree = "<group>";
@@ -143,6 +178,53 @@
 				2B4DA8C020E5770B0072F8B0 /* Info.plist */,
 			);
 			path = SomulecoUITests;
+			sourceTree = "<group>";
+		};
+		2B7DF86D2214A12E00ACE5F6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */,
+				2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */,
+				2B7DF8752214A24800ACE5F6 /* AuthenticationStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B7DF86E2214A15E00ACE5F6 /* Unauthenticated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unauthenticated;
+			sourceTree = "<group>";
+		};
+		2B7DF86F2214A16900ACE5F6 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CF00A20E9E920006AB73C /* LessonFeedViewController.swift */,
+				2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */,
+				2B9CF00E20E9E948006AB73C /* ExploreViewController.swift */,
+				2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */,
+				2B9CF00C20E9E935006AB73C /* SocialFeedViewController.swift */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		2B7DF8702214A17100ACE5F6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2BC4E60A20E8192100C204F8 /* LoginViewController.swift */,
+				2BC4E61020E8715200C204F8 /* SignupViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2B9CF00920E9E8D9006AB73C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */,
+				2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		5EB11B24DC3055B27E6465B5 /* Frameworks */ = {
@@ -276,9 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */,
 				2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */,
 				2B9EB37520E6C80500035D0A /* Assets.xcassets in Resources */,
+				2B7DF8742214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard in Resources */,
 				2B4DA8A120E5770A0072F8B0 /* Main.storyboard in Resources */,
+				2B7DF8762214A24800ACE5F6 /* AuthenticationStoryboard.storyboard in Resources */,
+				2B7DF8722214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +392,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Somuleco/Pods-Somuleco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
@@ -319,6 +406,7 @@
 				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
@@ -336,6 +424,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
@@ -349,6 +438,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
@@ -430,9 +520,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9CF01320E9E969006AB73C /* AddFriendsViewController.swift in Sources */,
+				2B9CF00B20E9E920006AB73C /* LessonFeedViewController.swift in Sources */,
+				2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */,
+				2B9CF00F20E9E948006AB73C /* ExploreViewController.swift in Sources */,
+				2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */,
+				2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */,
+				2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */,
+				2B9CF00D20E9E935006AB73C /* SocialFeedViewController.swift in Sources */,
 				2B4DA8A420E5770A0072F8B0 /* Somuleco.xcdatamodeld in Sources */,
-				2B4DA89E20E5770A0072F8B0 /* ViewController.swift in Sources */,
+				2B4DA89E20E5770A0072F8B0 /* EntryViewController.swift in Sources */,
+				2B9CF01120E9E95A006AB73C /* NotificationsViewController.swift in Sources */,
 				2B4DA89C20E5770A0072F8B0 /* AppDelegate.swift in Sources */,
+				2BC4E60F20E824E300C204F8 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

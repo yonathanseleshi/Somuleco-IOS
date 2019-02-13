@@ -40,6 +40,7 @@ target 'Somuleco' do
      pod 'SidebarOverlay', '~> 4.2'
      pod 'Hero', '~> 1.2'
      pod 'Material', '~> 2.16'
+     pod 'AWSMobileClient', '~> 2.6.13'
 
 
 end
