@@ -24,6 +24,10 @@ target 'Somuleco' do
      pod 'SideMenu'
      pod 'SidebarOverlay', '~> 4.2'
      pod 'Hero', '~> 1.2'
+     pod 'AWSCore', '~> 2.9.0'
+     pod 'AWSMobileClient', '~> 2.9.0'      # Required dependency
+     pod 'AWSUserPoolsSignIn', '~> 2.9.0'
+    
 
 
 end

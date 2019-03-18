@@ -10,6 +10,9 @@ import UIKit
 
 class SignupViewController: UIViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +20,11 @@ class SignupViewController: UIViewController {
         
         view.setGradientBackgroundColor(colorOne: Colors.futureBlue, colorTwo: Colors.futureGreen)    }
 
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
