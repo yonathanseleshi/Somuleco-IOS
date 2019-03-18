@@ -17,30 +17,13 @@ target 'Somuleco' do
     # Pods for testing
   end
 
-     pod 'AWSAutoScaling'
-     pod 'AWSCloudWatch'
-     pod 'AWSCognito'
-     pod 'AWSCognitoIdentityProvider'
-     pod 'AWSDynamoDB'
-     pod 'AWSEC2'
-     pod 'AWSElasticLoadBalancing'
-     pod 'AWSKinesis'
-     pod 'AWSLambda'
-     pod 'AWSMachineLearning'
-     pod 'AWSMobileAnalytics'
-     pod 'AWSS3'
-     pod 'AWSSES'
-     pod 'AWSSimpleDB'
-     pod 'AWSSNS'
-     pod 'AWSSQS'
+
      pod 'Alamofire', '~> 4.7'
      pod 'SwiftyJSON', '~> 4.0'
-     pod 'Moya', '~> 11.0'
+     pod 'Moya', '~> 12.0'
      pod 'SideMenu'
      pod 'SidebarOverlay', '~> 4.2'
      pod 'Hero', '~> 1.2'
-     pod 'Material', '~> 2.16'
-     pod 'AWSMobileClient', '~> 2.6.13'
 
 
 end
