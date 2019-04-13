@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3C3E2522616FBB0026BFCE /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2422616FBB0026BFCE /* UserService.swift */; };
+		2B3C3E272261701A0026BFCE /* SocialPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E262261701A0026BFCE /* SocialPostService.swift */; };
+		2B3C3E282261701A0026BFCE /* SocialPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E262261701A0026BFCE /* SocialPostService.swift */; };
+		2B3C3E2A2261704D0026BFCE /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E292261704D0026BFCE /* CourseService.swift */; };
+		2B3C3E2B2261704D0026BFCE /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E292261704D0026BFCE /* CourseService.swift */; };
+		2B3C3E2D2261707A0026BFCE /* LessonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2C2261707A0026BFCE /* LessonService.swift */; };
+		2B3C3E2E2261707A0026BFCE /* LessonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2C2261707A0026BFCE /* LessonService.swift */; };
+		2B3C3E30226170A40026BFCE /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2F226170A40026BFCE /* CommentService.swift */; };
+		2B3C3E31226170A40026BFCE /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2F226170A40026BFCE /* CommentService.swift */; };
+		2B3C3E33226170CC0026BFCE /* LearningPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E32226170CC0026BFCE /* LearningPostService.swift */; };
+		2B3C3E34226170CC0026BFCE /* LearningPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E32226170CC0026BFCE /* LearningPostService.swift */; };
+		2B3C3E362261712F0026BFCE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E352261712F0026BFCE /* NotificationService.swift */; };
+		2B3C3E372261712F0026BFCE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E352261712F0026BFCE /* NotificationService.swift */; };
 		2B4DA89C20E5770A0072F8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */; };
 		2B4DA89E20E5770A0072F8B0 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */; };
 		2B4DA8A120E5770A0072F8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA89F20E5770A0072F8B0 /* Main.storyboard */; };
@@ -14,6 +27,7 @@
 		2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */; };
 		2B4DA8B420E5770B0072F8B0 /* SomulecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8B320E5770B0072F8B0 /* SomulecoTests.swift */; };
 		2B4DA8BF20E5770B0072F8B0 /* SomulecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */; };
+		2B6C8DBF2240470A00E3FE48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C8DBE2240470A00E3FE48 /* User.swift */; };
 		2B7DF8722214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */; };
 		2B7DF8742214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */; };
 		2B7DF8762214A24800ACE5F6 /* AuthenticationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8752214A24800ACE5F6 /* AuthenticationStoryboard.storyboard */; };
@@ -28,6 +42,7 @@
 		2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */; };
 		2BC4E60F20E824E300C204F8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60E20E824E300C204F8 /* constants.swift */; };
 		2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E61020E8715200C204F8 /* SignupViewController.swift */; };
+		2BCC772E226272870095AC3D /* PUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC772D226272870095AC3D /* PUserService.swift */; };
 		2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */; };
 		2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */; };
 		2BF4BE712216183C007B3A7B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE702216183C007B3A7B /* WalletViewController.swift */; };
@@ -55,6 +70,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3C3E2422616FBB0026BFCE /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2B3C3E262261701A0026BFCE /* SocialPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPostService.swift; sourceTree = "<group>"; };
+		2B3C3E292261704D0026BFCE /* CourseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
+		2B3C3E2C2261707A0026BFCE /* LessonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonService.swift; sourceTree = "<group>"; };
+		2B3C3E2F226170A40026BFCE /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
+		2B3C3E32226170CC0026BFCE /* LearningPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPostService.swift; sourceTree = "<group>"; };
+		2B3C3E352261712F0026BFCE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		2B4DA89820E5770A0072F8B0 /* Somuleco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somuleco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +90,7 @@
 		2B4DA8BA20E5770B0072F8B0 /* SomulecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomulecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomulecoUITests.swift; sourceTree = "<group>"; };
 		2B4DA8C020E5770B0072F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6C8DBE2240470A00E3FE48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnauthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
 		2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
 		2B7DF8752214A24800ACE5F6 /* AuthenticationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationStoryboard.storyboard; sourceTree = "<group>"; };
@@ -82,6 +105,7 @@
 		2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradientExtension.swift; sourceTree = "<group>"; };
 		2BC4E60E20E824E300C204F8 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		2BC4E61020E8715200C204F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2BCC772D226272870095AC3D /* PUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUserService.swift; sourceTree = "<group>"; };
 		2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
 		2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = "New Group/LibraryViewController.swift"; sourceTree = "<group>"; };
 		2BF4BE702216183C007B3A7B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +149,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3C3E1F22613B970026BFCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C8DBE2240470A00E3FE48 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B3C3E2022613C190026BFCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B3C3E2122613C2A0026BFCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B3C3E2222613C5E0026BFCE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC772C226272650095AC3D /* Protocols */,
+				2B3C3E2422616FBB0026BFCE /* UserService.swift */,
+				2B3C3E262261701A0026BFCE /* SocialPostService.swift */,
+				2B3C3E292261704D0026BFCE /* CourseService.swift */,
+				2B3C3E2C2261707A0026BFCE /* LessonService.swift */,
+				2B3C3E2F226170A40026BFCE /* CommentService.swift */,
+				2B3C3E32226170CC0026BFCE /* LearningPostService.swift */,
+				2B3C3E352261712F0026BFCE /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2B4DA88F20E577090072F8B0 = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +211,11 @@
 		2B4DA89A20E5770A0072F8B0 /* Somuleco */ = {
 			isa = PBXGroup;
 			children = (
-				2B693CC12219EC9D005BE79E /* Models */,
+				2BCC772B22623CD10095AC3D /* ViewModels */,
+				2B3C3E2222613C5E0026BFCE /* Services */,
+				2B3C3E2122613C2A0026BFCE /* Views */,
+				2B3C3E2022613C190026BFCE /* Controllers */,
+				2B3C3E1F22613B970026BFCE /* Models */,
 				2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */,
 				2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */,
 				2B4DA89F20E5770A0072F8B0 /* Main.storyboard */,
@@ -197,12 +262,19 @@
 			path = SomulecoUITests;
 			sourceTree = "<group>";
 		};
-		2B693CC12219EC9D005BE79E /* Models */ = {
+		2BCC772B22623CD10095AC3D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Models;
-			path = "New Group";
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2BCC772C226272650095AC3D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC772D226272870095AC3D /* PUserService.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		5EB11B24DC3055B27E6465B5 /* Frameworks */ = {
@@ -258,6 +330,7 @@
 				2B4DA8AB20E5770B0072F8B0 /* Sources */,
 				2B4DA8AC20E5770B0072F8B0 /* Frameworks */,
 				2B4DA8AD20E5770B0072F8B0 /* Resources */,
+				971D6720483B8358A730F9C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,6 +374,11 @@
 					2B4DA89720E577090072F8B0 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2B4DA8AE20E5770B0072F8B0 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -380,9 +458,16 @@
 				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bond/Bond.framework",
+				"${BUILT_PRODUCTS_DIR}/Differ/Differ.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -396,9 +481,16 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bond.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differ.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -406,6 +498,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somuleco/Pods-Somuleco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971D6720483B8358A730F9C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SomulecoTests/Pods-SomulecoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SomulecoTests/Pods-SomulecoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9B2D3C97F4648117CA006008 /* [CP] Check Pods Manifest.lock */ = {
@@ -471,18 +591,27 @@
 			files = (
 				2B9CF01320E9E969006AB73C /* AddFriendsViewController.swift in Sources */,
 				2B9CF00B20E9E920006AB73C /* LessonFeedViewController.swift in Sources */,
+				2B3C3E2522616FBB0026BFCE /* UserService.swift in Sources */,
+				2B3C3E2D2261707A0026BFCE /* LessonService.swift in Sources */,
+				2B3C3E362261712F0026BFCE /* NotificationService.swift in Sources */,
 				2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */,
+				2B3C3E272261701A0026BFCE /* SocialPostService.swift in Sources */,
 				2B9CF00F20E9E948006AB73C /* ExploreViewController.swift in Sources */,
 				2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */,
+				2BCC772E226272870095AC3D /* PUserService.swift in Sources */,
 				2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */,
+				2B3C3E2A2261704D0026BFCE /* CourseService.swift in Sources */,
 				2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */,
+				2B6C8DBF2240470A00E3FE48 /* User.swift in Sources */,
 				2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */,
+				2B3C3E33226170CC0026BFCE /* LearningPostService.swift in Sources */,
 				2B9CF00D20E9E935006AB73C /* SocialFeedViewController.swift in Sources */,
 				2B4DA8A420E5770A0072F8B0 /* Somuleco.xcdatamodeld in Sources */,
 				2B4DA89E20E5770A0072F8B0 /* EntryViewController.swift in Sources */,
 				2B9CF01120E9E95A006AB73C /* NotificationsViewController.swift in Sources */,
 				2B4DA89C20E5770A0072F8B0 /* AppDelegate.swift in Sources */,
 				2BC4E60F20E824E300C204F8 /* constants.swift in Sources */,
+				2B3C3E30226170A40026BFCE /* CommentService.swift in Sources */,
 				2BF4BE73221618E2007B3A7B /* LearningProfileViewController.swift in Sources */,
 				2BF4BE712216183C007B3A7B /* WalletViewController.swift in Sources */,
 			);
@@ -492,7 +621,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3C3E282261701A0026BFCE /* SocialPostService.swift in Sources */,
 				2B4DA8B420E5770B0072F8B0 /* SomulecoTests.swift in Sources */,
+				2B3C3E372261712F0026BFCE /* NotificationService.swift in Sources */,
+				2B3C3E2B2261704D0026BFCE /* CourseService.swift in Sources */,
+				2B3C3E34226170CC0026BFCE /* LearningPostService.swift in Sources */,
+				2B3C3E31226170A40026BFCE /* CommentService.swift in Sources */,
+				2B3C3E2E2261707A0026BFCE /* LessonService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

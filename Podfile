@@ -10,6 +10,8 @@ target 'Somuleco' do
   target 'SomulecoTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking', '~> 4.0'
+    pod 'RxTest',     '~> 4.0'
   end
 
   target 'SomulecoUITests' do
@@ -27,6 +29,11 @@ target 'Somuleco' do
      pod 'AWSCore', '~> 2.9.0'
      pod 'AWSMobileClient', '~> 2.9.0'      # Required dependency
      pod 'AWSUserPoolsSignIn', '~> 2.9.0'
+     pod 'RxSwift',    '~> 4.0'
+     pod 'RxCocoa',    '~> 4.0'
+     pod 'Bond'
+     pod 'ReactiveKit'
+     pod 'ReSwift'
     
 
 
