@@ -44,6 +44,7 @@
 		2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E61020E8715200C204F8 /* SignupViewController.swift */; };
 		2BCC772E226272870095AC3D /* PUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC772D226272870095AC3D /* PUserService.swift */; };
 		2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */; };
+		2BE9A9632270F2AC00BA54BA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9A9622270F2AC00BA54BA /* AuthenticationService.swift */; };
 		2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */; };
 		2BF4BE712216183C007B3A7B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE702216183C007B3A7B /* WalletViewController.swift */; };
 		2BF4BE73221618E2007B3A7B /* LearningProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE72221618E2007B3A7B /* LearningProfileViewController.swift */; };
@@ -107,6 +108,7 @@
 		2BC4E61020E8715200C204F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		2BCC772D226272870095AC3D /* PUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUserService.swift; sourceTree = "<group>"; };
 		2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
+		2BE9A9622270F2AC00BA54BA /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = "New Group/LibraryViewController.swift"; sourceTree = "<group>"; };
 		2BF4BE702216183C007B3A7B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		2BF4BE72221618E2007B3A7B /* LearningProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningProfileViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				2BCC772C226272650095AC3D /* Protocols */,
 				2B3C3E2422616FBB0026BFCE /* UserService.swift */,
 				2B3C3E262261701A0026BFCE /* SocialPostService.swift */,
+				2BE9A9622270F2AC00BA54BA /* AuthenticationService.swift */,
 				2B3C3E292261704D0026BFCE /* CourseService.swift */,
 				2B3C3E2C2261707A0026BFCE /* LessonService.swift */,
 				2B3C3E2F226170A40026BFCE /* CommentService.swift */,
@@ -600,6 +603,7 @@
 				2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */,
 				2BCC772E226272870095AC3D /* PUserService.swift in Sources */,
 				2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */,
+				2BE9A9632270F2AC00BA54BA /* AuthenticationService.swift in Sources */,
 				2B3C3E2A2261704D0026BFCE /* CourseService.swift in Sources */,
 				2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */,
 				2B6C8DBF2240470A00E3FE48 /* User.swift in Sources */,

@@ -12,6 +12,9 @@ import AWSMobileClient
 class SignupViewController: UIViewController {
 
     
+    
+   
+    
     @IBOutlet weak var firstNameTxt: UITextField!
     
     @IBOutlet weak var lastNameTxt: UITextField!
@@ -30,7 +33,7 @@ class SignupViewController: UIViewController {
     
     @IBAction func signupBtn(_ sender: Any) {
         
-        
+        let auth: AuthenticationService
         
         
         AWSMobileClient.sharedInstance().signUp(username: usernameTxt.text!,
@@ -39,6 +42,8 @@ class SignupViewController: UIViewController {
                                                     if let signUpResult = signUpResult {
                                                         switch(signUpResult.signUpConfirmationState) {
                                                         case .confirmed:
+                                                            auth.authStatus(status: true)
+                                                            
                                                             print("User is signed up and confirmed.")
                                                         case .unconfirmed:
                                                             print("User is not confirmed and needs verification via \(signUpResult.codeDeliveryDetails!.deliveryMedium) sent at \(signUpResult.codeDeliveryDetails!.destination!)")
@@ -64,8 +69,14 @@ class SignupViewController: UIViewController {
     }
     
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         let authService: AuthenticationService
+        
+       var userAuth = authService.isAuthenticated.asObservable()
 
         // Do any additional setup after loading the view.
         
