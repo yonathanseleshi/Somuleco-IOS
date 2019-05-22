@@ -34,6 +34,7 @@ target 'Somuleco' do
      pod 'Bond'
      pod 'ReactiveKit'
      pod 'ReSwift'
+     pod 'RealmSwift'
     
 
 

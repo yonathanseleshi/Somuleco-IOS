@@ -38,6 +38,8 @@
 		2B9CF01320E9E969006AB73C /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */; };
 		2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */; };
 		2B9EB37520E6C80500035D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EB37420E6C80500035D0A /* Assets.xcassets */; };
+		2BAC67CD2295F82A00D496DD /* FacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC67CC2295F82A00D496DD /* FacebookUser.swift */; };
+		2BAC67CF2295FAF100D496DD /* GoogleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC67CE2295FAF100D496DD /* GoogleUser.swift */; };
 		2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60A20E8192100C204F8 /* LoginViewController.swift */; };
 		2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */; };
 		2BC4E60F20E824E300C204F8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60E20E824E300C204F8 /* constants.swift */; };
@@ -102,6 +104,8 @@
 		2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
 		2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavViewController.swift; sourceTree = "<group>"; };
 		2B9EB37420E6C80500035D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Icons/Assets.xcassets; sourceTree = "<group>"; };
+		2BAC67CC2295F82A00D496DD /* FacebookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUser.swift; sourceTree = "<group>"; };
+		2BAC67CE2295FAF100D496DD /* GoogleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUser.swift; sourceTree = "<group>"; };
 		2BC4E60A20E8192100C204F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradientExtension.swift; sourceTree = "<group>"; };
 		2BC4E60E20E824E300C204F8 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				2B6C8DBE2240470A00E3FE48 /* User.swift */,
+				2BAC67CC2295F82A00D496DD /* FacebookUser.swift */,
+				2BAC67CE2295FAF100D496DD /* GoogleUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -467,6 +473,8 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -490,6 +498,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -598,6 +608,7 @@
 				2B3C3E2D2261707A0026BFCE /* LessonService.swift in Sources */,
 				2B3C3E362261712F0026BFCE /* NotificationService.swift in Sources */,
 				2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */,
+				2BAC67CD2295F82A00D496DD /* FacebookUser.swift in Sources */,
 				2B3C3E272261701A0026BFCE /* SocialPostService.swift in Sources */,
 				2B9CF00F20E9E948006AB73C /* ExploreViewController.swift in Sources */,
 				2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */,
@@ -610,6 +621,7 @@
 				2BC4E60D20E81D9800C204F8 /* UIViewGradientExtension.swift in Sources */,
 				2B3C3E33226170CC0026BFCE /* LearningPostService.swift in Sources */,
 				2B9CF00D20E9E935006AB73C /* SocialFeedViewController.swift in Sources */,
+				2BAC67CF2295FAF100D496DD /* GoogleUser.swift in Sources */,
 				2B4DA8A420E5770A0072F8B0 /* Somuleco.xcdatamodeld in Sources */,
 				2B4DA89E20E5770A0072F8B0 /* EntryViewController.swift in Sources */,
 				2B9CF01120E9E95A006AB73C /* NotificationsViewController.swift in Sources */,
