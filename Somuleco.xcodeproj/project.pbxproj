@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1402FC23F125EB0032BE31 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B1402FB23F125EB0032BE31 /* awsconfiguration.json */; };
+		2B1402FE23F1264C0032BE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1402FD23F1264C0032BE31 /* Assets.xcassets */; };
 		2B3C3E2522616FBB0026BFCE /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E2422616FBB0026BFCE /* UserService.swift */; };
 		2B3C3E272261701A0026BFCE /* SocialPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E262261701A0026BFCE /* SocialPostService.swift */; };
 		2B3C3E282261701A0026BFCE /* SocialPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C3E262261701A0026BFCE /* SocialPostService.swift */; };
@@ -27,6 +29,8 @@
 		2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */; };
 		2B4DA8B420E5770B0072F8B0 /* SomulecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8B320E5770B0072F8B0 /* SomulecoTests.swift */; };
 		2B4DA8BF20E5770B0072F8B0 /* SomulecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */; };
+		2B590C6D22BCA0B20045C077 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B590C6C22BCA0B20045C077 /* LoginTests.swift */; };
+		2B590C6F22BCA0CF0045C077 /* SignupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B590C6E22BCA0CF0045C077 /* SignupTests.swift */; };
 		2B6C8DBF2240470A00E3FE48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C8DBE2240470A00E3FE48 /* User.swift */; };
 		2B7DF8722214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */; };
 		2B7DF8742214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */; };
@@ -37,7 +41,6 @@
 		2B9CF01120E9E95A006AB73C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */; };
 		2B9CF01320E9E969006AB73C /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */; };
 		2B9CF01520E9E9D9006AB73C /* SideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */; };
-		2B9EB37520E6C80500035D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EB37420E6C80500035D0A /* Assets.xcassets */; };
 		2BAC67CD2295F82A00D496DD /* FacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC67CC2295F82A00D496DD /* FacebookUser.swift */; };
 		2BAC67CF2295FAF100D496DD /* GoogleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC67CE2295FAF100D496DD /* GoogleUser.swift */; };
 		2BC4E60B20E8192100C204F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60A20E8192100C204F8 /* LoginViewController.swift */; };
@@ -45,7 +48,6 @@
 		2BC4E60F20E824E300C204F8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E60E20E824E300C204F8 /* constants.swift */; };
 		2BC4E61120E8715200C204F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4E61020E8715200C204F8 /* SignupViewController.swift */; };
 		2BCC772E226272870095AC3D /* PUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC772D226272870095AC3D /* PUserService.swift */; };
-		2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */; };
 		2BE9A9632270F2AC00BA54BA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9A9622270F2AC00BA54BA /* AuthenticationService.swift */; };
 		2BF4BE6F22161763007B3A7B /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */; };
 		2BF4BE712216183C007B3A7B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4BE702216183C007B3A7B /* WalletViewController.swift */; };
@@ -73,6 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1402FB23F125EB0032BE31 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		2B1402FD23F1264C0032BE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3C3E2422616FBB0026BFCE /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		2B3C3E262261701A0026BFCE /* SocialPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPostService.swift; sourceTree = "<group>"; };
 		2B3C3E292261704D0026BFCE /* CourseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		2B4DA8BA20E5770B0072F8B0 /* SomulecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomulecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DA8BE20E5770B0072F8B0 /* SomulecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomulecoUITests.swift; sourceTree = "<group>"; };
 		2B4DA8C020E5770B0072F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B590C6C22BCA0B20045C077 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		2B590C6E22BCA0CF0045C077 /* SignupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTests.swift; sourceTree = "<group>"; };
 		2B6C8DBE2240470A00E3FE48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B7DF8712214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnauthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
 		2B7DF8732214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticatedStoryboard.storyboard; sourceTree = "<group>"; };
@@ -103,7 +109,6 @@
 		2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
 		2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavViewController.swift; sourceTree = "<group>"; };
-		2B9EB37420E6C80500035D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Icons/Assets.xcassets; sourceTree = "<group>"; };
 		2BAC67CC2295F82A00D496DD /* FacebookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUser.swift; sourceTree = "<group>"; };
 		2BAC67CE2295FAF100D496DD /* GoogleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUser.swift; sourceTree = "<group>"; };
 		2BC4E60A20E8192100C204F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +116,6 @@
 		2BC4E60E20E824E300C204F8 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		2BC4E61020E8715200C204F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		2BCC772D226272870095AC3D /* PUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUserService.swift; sourceTree = "<group>"; };
-		2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
 		2BE9A9622270F2AC00BA54BA /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = "New Group/LibraryViewController.swift"; sourceTree = "<group>"; };
 		2BF4BE702216183C007B3A7B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
@@ -165,13 +169,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		2B3C3E2022613C190026BFCE /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		2B3C3E2122613C2A0026BFCE /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +220,6 @@
 				2BCC772B22623CD10095AC3D /* ViewModels */,
 				2B3C3E2222613C5E0026BFCE /* Services */,
 				2B3C3E2122613C2A0026BFCE /* Views */,
-				2B3C3E2022613C190026BFCE /* Controllers */,
 				2B3C3E1F22613B970026BFCE /* Models */,
 				2B4DA89B20E5770A0072F8B0 /* AppDelegate.swift */,
 				2BF4BE6E22161763007B3A7B /* LibraryViewController.swift */,
@@ -236,16 +232,16 @@
 				2B9CF01020E9E95A006AB73C /* NotificationsViewController.swift */,
 				2B9CF00E20E9E948006AB73C /* ExploreViewController.swift */,
 				2B9CF01220E9E969006AB73C /* AddFriendsViewController.swift */,
+				2B1402FB23F125EB0032BE31 /* awsconfiguration.json */,
 				2B9CF00C20E9E935006AB73C /* SocialFeedViewController.swift */,
 				2BF4BE702216183C007B3A7B /* WalletViewController.swift */,
 				2B4DA89D20E5770A0072F8B0 /* EntryViewController.swift */,
+				2B1402FD23F1264C0032BE31 /* Assets.xcassets */,
 				2B9CF01420E9E9D9006AB73C /* SideNavViewController.swift */,
 				2BC4E60A20E8192100C204F8 /* LoginViewController.swift */,
 				2BC4E61020E8715200C204F8 /* SignupViewController.swift */,
 				2BC4E60C20E81D9800C204F8 /* UIViewGradientExtension.swift */,
-				2B9EB37420E6C80500035D0A /* Assets.xcassets */,
 				2B4DA8A720E5770B0072F8B0 /* LaunchScreen.storyboard */,
-				2BDBAB4920FF976F000A6B2F /* awsconfiguration.json */,
 				2B4DA8AA20E5770B0072F8B0 /* Info.plist */,
 				2B4DA8A220E5770A0072F8B0 /* Somuleco.xcdatamodeld */,
 				2BC4E60E20E824E300C204F8 /* constants.swift */,
@@ -258,6 +254,8 @@
 			children = (
 				2B4DA8B320E5770B0072F8B0 /* SomulecoTests.swift */,
 				2B4DA8B520E5770B0072F8B0 /* Info.plist */,
+				2B590C6C22BCA0B20045C077 /* LoginTests.swift */,
+				2B590C6E22BCA0CF0045C077 /* SignupTests.swift */,
 			);
 			path = SomulecoTests;
 			sourceTree = "<group>";
@@ -426,12 +424,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDBAB4A20FF976F000A6B2F /* awsconfiguration.json in Resources */,
+				2B1402FC23F125EB0032BE31 /* awsconfiguration.json in Resources */,
 				2B4DA8A920E5770B0072F8B0 /* LaunchScreen.storyboard in Resources */,
-				2B9EB37520E6C80500035D0A /* Assets.xcassets in Resources */,
 				2B7DF8742214A23600ACE5F6 /* AuthenticatedStoryboard.storyboard in Resources */,
 				2B4DA8A120E5770A0072F8B0 /* Main.storyboard in Resources */,
 				2B7DF8762214A24800ACE5F6 /* AuthenticationStoryboard.storyboard in Resources */,
+				2B1402FE23F1264C0032BE31 /* Assets.xcassets in Resources */,
 				2B7DF8722214A1F800ACE5F6 /* UnauthenticatedStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,7 +641,9 @@
 				2B3C3E2B2261704D0026BFCE /* CourseService.swift in Sources */,
 				2B3C3E34226170CC0026BFCE /* LearningPostService.swift in Sources */,
 				2B3C3E31226170A40026BFCE /* CommentService.swift in Sources */,
+				2B590C6F22BCA0CF0045C077 /* SignupTests.swift in Sources */,
 				2B3C3E2E2261707A0026BFCE /* LessonService.swift in Sources */,
+				2B590C6D22BCA0B20045C077 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

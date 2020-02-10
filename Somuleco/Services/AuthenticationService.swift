@@ -9,6 +9,7 @@
 import Foundation
 import RxSwift
 import AWSMobileClient
+import Combine
 
 class AuthenticationService {
     
