@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class EntryViewController: UIViewController {
 
@@ -18,11 +19,23 @@ class EntryViewController: UIViewController {
     
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    
+    @IBSegueAction func UnauthAction(_ coder: NSCoder) -> UIViewController? {
+        
+        
+        
+        if #available(iOS 13, *) {
+           return UIHostingController(coder: coder, rootView: UnauthenticatedStartView())
+        } else {
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let unauthViewController = storyBoard.instantiateViewController(withIdentifier: "UnauthStart") as! UnauthenticatedStartViewController
+            self.present(unauthViewController, animated:true, completion:nil)
+        }
     }
-
+    
+    
+    
 
 }
 
